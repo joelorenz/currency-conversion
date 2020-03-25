@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppState</key>
+	<dict>
+		<key>NetworkLoggingEnabled</key>
+		<true/>
+		<key>DeviceLoggingEnabled</key>
+		<true/>
+	</dict>
+	<key>Backend</key>
+	<dict>
+		<key>baseURL</key>
+		<string>http://api.currencylayer.com</string>
+		<key>apiAccessKey</key>
+		<string>b3ed656cbe6e2c7ba8b17192c25461a6</string>
+		<key>URI</key>
+		<dict>
+			<key>list</key>
+			<dict>
+				<key>protected</key>
+				<false/>
+				<key>method</key>
+				<string>GET</string>
+				<key>path</key>
+				<string>/list</string>
+			</dict>
+			<key>live</key>
+			<dict>
+				<key>protected</key>
+				<false/>
+				<key>method</key>
+				<string>GET</string>
+				<key>path</key>
+				<string>/live</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
