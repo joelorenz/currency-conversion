@@ -9,19 +9,19 @@
 import Foundation
 
 // MARK: - PropertyListValue Protocol
-protocol PropertyListValue { }
+protocol PropertyValue { }
 
-extension Data: PropertyListValue { }
+extension Data: PropertyValue { }
 
-extension String: PropertyListValue { }
+extension String: PropertyValue { }
 
-extension Date: PropertyListValue { }
+extension Date: PropertyValue { }
 
-extension Bool: PropertyListValue { }
+extension Bool: PropertyValue { }
 
-extension Int: PropertyListValue { }
+extension Int: PropertyValue { }
 
-extension Double: PropertyListValue { }
+extension Double: PropertyValue { }
 
-extension Float: PropertyListValue { }
+extension Float: PropertyValue { }
 

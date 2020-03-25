@@ -10,6 +10,9 @@ import Foundation
 
 struct AppDefaults {
     
+    @UserDefaultWrapper(key: .isFirstLaunch)
+    var isFirsLaunch: Bool?
+    
     @UserDefaultWrapper(key: .dateInterval)
     var dateInterval: String?
     

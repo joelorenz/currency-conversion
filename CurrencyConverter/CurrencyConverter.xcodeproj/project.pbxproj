@@ -474,7 +474,7 @@
 				37E9BEE02425D0EE00AEB585 /* Helpers */,
 				37E9BEDD2425C87100AEB585 /* Resources */,
 				37960B56242B06DD00577D5D /* Supporting Files */,
-				37FC9B49242B201E001DF3BB /* Launch Screen */,
+				37FC9B49242B201E001DF3BB /* Launch-Screen */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -879,12 +879,12 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		37FC9B49242B201E001DF3BB /* Launch Screen */ = {
+		37FC9B49242B201E001DF3BB /* Launch-Screen */ = {
 			isa = PBXGroup;
 			children = (
 				377B0353242B1C62001AE092 /* LaunchScreen.storyboard */,
 			);
-			path = "Launch Screen";
+			path = "Launch-Screen";
 			sourceTree = "<group>";
 		};
 		4EEAC652BA2B31A309BF055D /* Pods */ = {

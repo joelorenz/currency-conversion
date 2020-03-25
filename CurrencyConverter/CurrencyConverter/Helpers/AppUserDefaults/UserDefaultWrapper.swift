@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - UserDefaults Wrapper
 @propertyWrapper
-struct UserDefaultWrapper<Value: PropertyListValue> {
+struct UserDefaultWrapper<Value: PropertyValue> {
     
     let key: Key
 

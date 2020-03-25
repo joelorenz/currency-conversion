@@ -30,7 +30,11 @@ class HomeViewModel: HomeViewModelProtocol {
 extension HomeViewModel {
     
     func viewIsReady() {
-        beginCalculation(input: "1")
+        
+        if !(AppDefaults().isFirsLaunch ?? false) {
+            beginCalculation(input: "1")
+        }
+        
         observableUpdateCurrency()
     }
     
@@ -72,7 +76,7 @@ extension HomeViewModel: CurrencyPickerControllerDelegate {
         scheme: CurrencyDataScheme
     ) {
         
-        if inputValue.value.isEmpty {
+        if inputValue.value.isEmpty && !(AppDefaults().isFirsLaunch ?? false) {
             inputValue.value = "1"
         }
         

@@ -24,6 +24,7 @@ extension Key: ExpressibleByStringLiteral {
 // MARK: - Declare Keys
 extension Key {
     
+    static let isFirstLaunch: Key = "kIsFirstLaunch"
     static let dateInterval: Key = "kDateInterval"
     
 }
